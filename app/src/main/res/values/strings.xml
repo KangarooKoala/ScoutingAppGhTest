@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">GitHubTest</string>
     <string name="default_counter">0 presses</string>
-    <string name="counter_format">%d presses</string>
+    <plurals name="numberOfPresses">
+        <item quantity="one">%d press</item>
+        <item quantity="other">%d presses</item>
+    </plurals>
 </resources>
